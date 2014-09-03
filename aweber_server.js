@@ -20,7 +20,7 @@ var urls = {
 
     params['oauth_token'] = oauthBinding.requestToken;
 
-    return "https://auth.aweber.com/1.0/authorize?" + querystring.stringify(params);
+    return "https://auth.aweber.com/1.0/oauth/authorize?" + querystring.stringify(params);
   }
 };
 
