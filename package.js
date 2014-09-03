@@ -1,9 +1,11 @@
 Package.describe({
-  summary: "Login service for Aweber accounts"
+  summary: "Login service for Aweber accounts",
+  version: "0.1.0"
 });
 
 Package.on_use(function(api) {
-  // trello
+  api.versionsFrom('METEOR@0.9.0');
+
   api.use('oauth1', ['client', 'server']);
   api.use('oauth', ['client', 'server']);
   api.use('random', 'client');
@@ -22,7 +24,6 @@ Package.on_use(function(api) {
 
   api.use('underscore', ['server']);
 
-  // acounts-trello
   api.use('accounts-base', ['client', 'server']);
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
