@@ -1,0 +1,10 @@
+{
+  "name": "accounts-aweber",
+  "description": "Accounts Aweber - adds support for Aweber (requires 0.6.6 or later)",
+  "homepage": "https://github.com/mpowaga/meteor-accounts-aweber",
+  "author": "Robert Lowe",
+  "version": "0.1.0",
+  "git": "https://github.com/mpowaga/meteor-accounts-aweber.git",
+  "packages": {
+  }
+}
